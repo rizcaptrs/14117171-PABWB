@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Login</title>
+    <h1>FORM HTML</h1> 
+</head>
+<body>
+    <form action="login.php" method="POST">
+        
+        <p>
+            <label>Name:</label>
+            <input type="text" name="Name" placeholder="Name" />
+        </p>
+        <p>
+                <label>Gender:</label>
+                <input type="radio" name="Gender" value="Man" />Man
+                <input type="radio" name="Gender" value="Women" />Women</p>
+        </p>
+        <p>
+            <label>Address:</label>
+            <input type="Address" name="Address" placeholder="Address" />
+        </p>
+        <p>
+            <p>Country:
+                <select name="Country">
+                        <option value="indonesia">Indonesia</option>
+                        <option value="jepang">Jepang</option>
+                        <option value="yaman">Yaman</option>
+                      </select>
+                      </p>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="email" />
+        </p>
+        <p>
+            <label>Photo:</label>
+            <input class="search" type="text" placeholder="Browse" required>	
+            <input class="button" type="button" value="Browse">		
+        </p>
+        <p>
+            <label>Comment:</label>
+            <textarea name="Comment"></textarea>
+            <input type="submit" name="submit" value="Submit" />
+        </p>
+        <h3 align="center">FORM REGISTRASI</h3>
+    </form>
+</body>
+</html>
