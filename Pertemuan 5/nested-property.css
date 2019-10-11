@@ -1,0 +1,13 @@
+title {
+  border-top: 4px solid black;
+  border-text-align: center;
+  text-align: center;
+  padding: 60px;
+  font-family: sans;
+}
+title .slogan {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=nested-property.css.map */
